@@ -130,3 +130,6 @@ dmypy.json
 
 #Exclude .DS_store
 .DS_Store
+
+#Exlcude cache
+/cache
