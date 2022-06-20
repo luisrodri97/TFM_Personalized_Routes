@@ -14,9 +14,24 @@ With the aim of making each route more than just a simple fast transfer, we prop
 
 This repository is not a ready2go implementation that can be used ...
 
-### Composition
+## Repository Organization
 
-This repository consists of 3 notebooks:
+### Data
+
+Data needed for the different calculations and map representations is contained in: 
+
+＊ `Datasets`: folder with data regarding the shops, its type (_category belonging_) and its location.
+
+＊ `Shapefiles`: folder with data points and lines that conform the city points and its streets.
+
+＊ `Graphs`:  folder with pickled graphs of the cities. Can be used as an alternative to working with shapefiles, with pre-calculations that allow a faster implementation. When working with this data type, the `openstreetmap` library is used to handle the information.
+
+＊ `Relations`: folder with information about all the stabliments nearby every point in one of the cities of study, with a tolerance of _50 points_ in any direction in latitude or longitude.
+
+
+### Notebooks
+
+This repository consists of 3 core notebooks.
 
 #### `dataset_preprocessing`
 
@@ -34,7 +49,7 @@ The strategy followed to obtain the personalized route is the following, given 2
 
 1️⃣ _Dijkstra's algorithm_ is implemented to obtain the fastest route
 
-2️⃣ For all points conforming the route, all stabliments in a distance of _50 units_ from the longitude and latitude will be candidates to be added to the route. The pre-calculated csv file `city_relations` is used in this stage.
+2️⃣ For all points conforming the route, all stabliments in a distance of _50 units_ from the longitude and latitude will be candidates to be added to the route. The pre-calculated csv file `<city>_relations` in `Relations`' folder is used in this stage.
 
 3️⃣ Only those stabliments that belong to the categories of interest of the user will be taken into account. After this filter... 
 
