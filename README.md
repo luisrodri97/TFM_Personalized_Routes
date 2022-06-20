@@ -12,3 +12,37 @@ With the aim of making each route more than just a simple fast transfer, we prop
 <a><img src="Images/Personalized_Routes_3.png" align="center" /></a>
 
 
+This repository is not a ready2go implementation that can be used ...
+
+### Composition
+
+This repository consists of 3 notebooks:
+
+#### `dataset_preprocessing`
+
+Notebook consisting of a descriptive analisis of the datasets that contain all shops for the different cities considered in this project. Also a section with the preprocessing methodology implemented is exposed in the second part of the notebook. Data used is available in the folder `Datasets`.
+
+
+#### `network_analysis_experiments`
+
+This notebook introduces and describes the data that is used to obtain the routes and map representations. The data the notebook uses are the `shapefiles` of Barcelona. However, It's also available the `shapefile` of New York city, London and Madrid. 
+
+
+#### `route_algorithm`
+
+The strategy followed to obtain the personalized route is the following, given 2 points and a direction:
+
+1️⃣ _Dijkstra's algorithm_ is implemented to obtain the fastest route
+
+2️⃣ For all points conforming the route, all stabliments in a distance of _50 units_ from the longitude and latitude will be candidates to be added to the route. The pre-calculated csv file `city_relations` is used in this stage.
+
+3️⃣ Only those stabliments that belong to the categories of interest of the user will be taken into account. After this filter... 
+
+   ﹡ If the number of nearby stabliments is $`\leq 5`$ , then the route will pass through all the points.
+
+   ﹡ Otherwise, a 2nd filter will be performed via _*random selection*_ or selectiong those points that guarantee the _*shortest path*_.
+
+See the notebook referenced in this section to have a practical view of the process detailed in this lines.
+
+
+
