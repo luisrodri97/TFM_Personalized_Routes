@@ -17,7 +17,7 @@ This repository is not a ready2go implementation that can be used ...
 ## Repository Organization
 
 # _Data_
---------------------------------------------------------------------
+
 Data needed for the different calculations and map representations is contained in: 
 
 ＊ `Datasets`: folder with data regarding the shops, its type (_category belonging_) and its location.
@@ -29,8 +29,10 @@ Data needed for the different calculations and map representations is contained 
 ＊ `Relations`: folder with information about all the stabliments nearby every point in one of the cities of study, with a tolerance of _50 points_ in any direction in latitude or longitude.
 
 
+
+
+
 # _Notebooks_
---------------------------------------------------------------------
 
 This repository consists of 3 core notebooks.
 
