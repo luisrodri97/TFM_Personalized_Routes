@@ -13,9 +13,6 @@ With the aim of making each route more than just a simple fast transfer, we prop
 
 <a><img src="Images/Personalized_Routes_3.png" align="center" /></a>
 
-
-This repository is not a ready2go implementation that can be used ...
-
 ## Repository Organization
 
 # _Data_
