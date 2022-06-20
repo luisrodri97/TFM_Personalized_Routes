@@ -56,7 +56,7 @@ The strategy followed to obtain the personalized route is the following, given 2
 
 3️⃣ Only those stabliments that belong to the categories of interest of the user will be taken into account. After this filter... 
 
-   ﹡ If the number of nearby stabliments is $`\leq 5`$ , then the route will pass through all the points.
+   ﹡ If the number of nearby stabliments is $\leq 5$ , then the route will pass through all the points.
 
    ﹡ Otherwise, a 2nd filter will be performed via _*random selection*_ or selectiong those points that guarantee the _*shortest path*_.
 
