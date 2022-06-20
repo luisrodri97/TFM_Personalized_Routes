@@ -3,6 +3,8 @@
 
 # Personalized Routes: Network Analysis and Shortest Path Algorithm
 
+## About the project
+
 Current routing systems are utterly optimized to offer the route that guarantees the minimum amount of time to commute from one point to another.
 
 However, sometimes we are not in such a rush to get to a certain place but rather prefer a more joyful track that assures us to be walking by parks. Or maybe if we need to shop a certain item, the route could be optimized to get us to nearby shoping areas while bringing us to the final destination.
@@ -45,7 +47,7 @@ Notebook consisting of a descriptive analisis of the datasets that contain all s
 #### `network_analysis_experiments`
 -------------------------
 
-This notebook introduces and describes the data that is used to obtain the routes and map representations. The data the notebook uses are the `shapefiles` of Barcelona. However, It's also available the `shapefile` of New York city, London and Madrid. 
+This notebook introduces and describes the data that is used to obtain the routes and map representations. The data the notebook uses are the `shapefiles` and `spatial graphs` of Barcelona. However, this same type of data is also available for New York city, London and Madrid. 
 
 
 #### `route_algorithm`
@@ -65,5 +67,25 @@ The strategy followed to obtain the personalized route is the following, given 2
 
 See the notebook referenced in this section to have a practical view of the process detailed in this lines.
 
+## Roadmap
+
+A first iteration has been done, generating a robust basis... 
+
+✅ Research on the topic
+
+✅ Data gathering and preprocessing
+
+✅ Implementation of the algorithm
+
+✅ Obtainment of a working solution
+
+...from where to keep building. Some ideas we have in mind to improve this project are:
+
+⚙️ Work on the computational cost
+
+⚙️ Build an interface
 
 
+## Contact 
+
+Luis Rodriguez - luisrodri.ba@gmail.com
