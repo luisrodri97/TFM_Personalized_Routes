@@ -69,7 +69,7 @@ See the notebook referenced in this section to have a practical view of the proc
 
 ## Roadmap
 
-A first iteration has been done, generating a robust basis... 
+A first iteration has been done, generating a _**robust basis**_... 
 
 ✅ Research on the topic
 
@@ -79,7 +79,7 @@ A first iteration has been done, generating a robust basis...
 
 ✅ Obtainment of a working solution
 
-...from where to keep building. Some ideas we have in mind to improve this project are:
+...from where to _**keep building**_. Some ideas we have in mind to improve this project are:
 
 ⚙️ Work on the computational cost
 
